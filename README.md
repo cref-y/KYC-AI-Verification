@@ -29,42 +29,42 @@ The main aim of the notebook is to extract textual identification information fr
 To achieve this the function below are included 
 
 
-  - extract_text_from_id
+#  - extract_text_from_id
 
 
   this function extract text from the image including name, identifaction number,country  and serial number from the id image
 
 
-  - extract_face_from_id
+#  - extract_face_from_id
 
 
   this function extract the face from the image pring on the id which is later used to find similarity with the image which would later be uploaded.
 
 
-  - js_to_image,take_photo
+#  - js_to_image,take_photo
 
 
   the combination of this function helps the colab notebook to have accessibility to the camera of the device and allow images to be captured
   
    
-   - capture_live_face 
+#   - capture_live_face 
 
 
    this functions runs when the camera is on and invokes a face_recognition module which will detect presence of a face within the camera view
 
-   - preprocess face 
+#   - preprocess face 
 
 
    performs featue extraction for both images
 
-  - histogram similarity,compare faces
+#  - histogram similarity,compare faces
 
 
   this function idetifies similarities between the uploaded image and the face captured by the camera 
 
-  - kyc verification 
+#  - kyc verification 
 
-  
+
   function combines all the above function to perform the  necessary operation on the uploaded data
   expected return type is a dictionary with the extracted text and the similarity score obtained during  face comparison
 
