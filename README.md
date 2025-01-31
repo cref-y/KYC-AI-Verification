@@ -19,7 +19,8 @@ git clone https://github.com/cref-y/KYC-AI-Verification.git
 # to execute the cell => shift + return
 
 ### alternatives to running teh notebook
-# open the notebook from google colab usin the link below
+# open the notebook from google colab using the link below
+# note while using colab change runtime to a temporary gpu for successfull code execution 
 https://colab.research.google.com/drive/16C0me9EM92dvp1pJA08zGkhQK6i2V1Is?usp=sharing
 
 ### About the notebook
